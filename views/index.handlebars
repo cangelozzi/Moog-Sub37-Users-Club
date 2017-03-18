@@ -1,0 +1,113 @@
+<!--
+<h2 class="page-header">Home Page</h2>
+<p>Welcome to our Home Page</p>
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Moog Sub37 Users Club</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <link rel='stylesheet' href='/css/appstyle.css' />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+    <header>
+        <div class="jumbotron hidden-xs">
+        </div>
+        <!-- jumbotron -->
+
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/events" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Info<span class="caret"><span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/sub">The Sub37</a></li>
+                                <li><a href="/soundbasic">The Basics of Sound</a></li>
+                            </ul>
+                        </li>
+                        <!-- create link for Feedback -->
+                        <li><a href="/feedback">Feedback</a></li>
+                        <li><a href="/chat">Chat</a></li>
+                    </ul>
+                    <!-- nav -->
+                </div>
+                <!-- navbar-collapse -->
+            </div>
+            <!-- container -->
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="maincontent">
+
+                    <article class="article">
+                        <h2 class="article-title">Introduction</h2>
+                        <p>This club is for anyone who likes producing electronic and acoustic music using a Moog Sub37 Tribute Edition, and/or wishes to learn new production skills, other effects, find out about various plug-ins, and take their mixes to
+                            the next level. There is no particular skill requirement to join the club. However if you are a beginner, we recommend you at least learn some basic Subtractive Synthesis , and watch some free tutorials on youtube before. We
+                            are more than welcome to help and advice on the first Subtractive Synthesis steps, and how they apply to our wonderful Sub37. Hardware music makers are always welcome, so if you play with other synths, please join us as well!
+                        </p>
+                        <p>Here is the list of topics regularly covered  • Intro to the Moog World • Basic computer / studio set-up • Synthesizers and sound design • Mixing techniques • Unique plug-ins • Reverbs • EQing • Push Subtractive Synthesis to its limits • Glitch/stutter effects • Guitar effects • Bass sound • Useful tips/tricks/shortcuts • Sub37 with Ableton Live (or any other DAW)• Using Live for live performances </p>
+
+                    </article>
+                    <!-- article -->
+
+                    <article class="article">
+                        <h1 class="article-title">Disclaimer</h1>
+                        <ul>
+                            <li>WE LISTEN TO EACH OTHER Nobody is trying to do synth solos for the whole of the night. Play together, go with the flow, and definitely give each other space to shine.</li>
+                            <li>WE ONLY GET ONE LIFE and also one audio input, one electricity plug, and one midi out. Bring your own cables, extensions, MIDI to CV converters and whatever you need to make it happen for you with this set of ones.</li>
+                            <li>WE KNOW HOW TO USE A MIXING DESK and we're gonna. Our sounds blend together in harmony most of the time, and when they don't, it's on purpose.</li>
+                        </ul>
+                    </article>
+                    <!-- article -->
+
+                </div>
+            </div>
+            <!-- primary -->
+            <aside class="col-sm-4">
+                <article class="sidebar">
+                    <h1 class="sidebar-title">Let's jam!</h1>
+                    <ul class="sidebar-body">
+                        <li>Share patches!</li>
+                        <li>Advice FX!</li>
+                        <li>Show us your setup!</li>
+                        <li>Let's meet and jam!</li>
+                        <li>Tips & Tricks</li>
+                        <li>...and mainly, share your sounds!</li>
+                    </ul>
+                </article>
+                <!-- article -->
+            </aside>
+            <!-- secondary -->
+        </div>
+    </div>
+    <!-- container -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+    <script src="/js/chat.js"></script>
+</body>
+
+</html>

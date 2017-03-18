@@ -1,0 +1,15 @@
+{
+  "events": [{
+    "title" : "test",
+    "shortname" : "test",
+    "summary" : "ok."
+  },{
+    "title" : "Sub",
+    "shortname" : "Sub",
+    "summary": "ok."
+  },{
+    "title" : "Synth",
+    "shortname" : "Synth",
+    "summary": "ok. "
+  }]
+}
