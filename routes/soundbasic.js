@@ -4,7 +4,7 @@ var router = express.Router();
 
 
 // go to ALL events path
-router.get('/soundbasic', function (req, res) {
+router.get('/soundbasic', ensureAuthenticated, function (req, res) {
   var info = '';
 
   // grab appData info created in app.js
@@ -16,5 +16,13 @@ router.get('/soundbasic', function (req, res) {
   });
 });
 
+function ensureAuthenticated(req, res, next){
+	if(req.isAuthenticated()){
+		return next();
+	} else {
+		//req.flash('error_msg','You are not logged in');
+		res.redirect('/users/login');
+	}
+}
 
 module.exports = router;
