@@ -132,11 +132,6 @@ footer {
 	margin-top: 40px;
 }
 
-img:hover {
- box-shadow: 2px 2px 2px white;
- transform: translateY(3px);
-}
-
 button:active {
  box-shadow: 2px 2px 2px white;
  transform: translateY(3px);
