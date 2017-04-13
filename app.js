@@ -104,6 +104,7 @@ app.use(require('./routes/feedback'));
 app.use(require('./routes/feedbackAPI'));
 app.use(require('./routes/chat'));
 app.use(require('./routes/soundbasic'));
+app.use(require('./routes/soundclips'));
 
 
 // 12.Set Port @ 3000
